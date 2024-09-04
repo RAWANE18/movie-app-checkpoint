@@ -1,0 +1,39 @@
+.movie-form{
+    padding: 50px;
+    display: flex;
+   gap: 20px;
+    height: 400px;
+    flex-direction: column;
+}
+.movie-form input{
+    width: 100%;
+height: 50px;
+    background-color: rgb(61, 61, 61);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #fff;
+    outline: none; 
+    padding: 10px;
+}
+.movie-form textarea{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(61, 61, 61);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #fff;
+    outline: none; 
+}
+.movie-form button{
+    background-color:   rgb(215, 151, 98);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #6e6b6b;
+}
